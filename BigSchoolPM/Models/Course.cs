@@ -13,6 +13,8 @@ namespace BigSchoolPM.Models
             get; set;
         }
 
+        public bool IsCanceled { get; set; }
+
         public ApplicationUser Lecturer
         {
             get; set;
